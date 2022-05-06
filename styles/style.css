@@ -6,3 +6,91 @@ Green: #00B172
 White: #FFF
 
 */
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+h1, body, html, main {
+    font-family: "Calibri Light";
+    margin: 0;
+  }
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    position:fixed;
+    height: 50px;
+    width: 100%;
+    background-color: white;
+}
+nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    list-style: none;
+    width: 35%;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+.logo {
+    height: 40px;
+}
+
+#title {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    background-image: url('../images/landing.jpg');
+    background-size: cover;
+    height: 600px;
+    margin-bottom: 30px;
+}
+#title h1 {
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+#title p {
+    margin: 0;
+    font-size: 20px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 30px;
+    text-decoration-line: underline;
+    text-underline-position: under;
+    text-decoration-color: #00B172;
+
+}
+.character {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.character div {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;  
+    width: 23%;  
+    margin: 30px;
+}
+.icon {
+    height: 70px;
+    margin: 10px auto;
+}
+h4 {
+    font-size: 25px;
+    margin: 0 ;
+    color: #00B172
+}
+.character p {
+    font-size: 20px;
+}
+
+#example {
+    background-color: #00B172;
+    margin: 20px;
+}
