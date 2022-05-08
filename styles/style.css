@@ -17,23 +17,28 @@ nav {
     display: flex;
     justify-content: space-between;
     position:fixed;
-    height: 50px;
+    height: 70px;
     width: 100%;
-    background-color: white;
+    background-color: #FFF;
+    
 }
 nav ul {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    align-items: center;
     list-style: none;
     width: 35%;
+    font-size: 18px;
+    margin-right: 20px;
 }
 a {
     text-decoration: none;
     color: black;
 }
 .logo {
-    height: 40px;
+    height: 50px;
+    margin: 10px 30px;
 }
 
 #title {
@@ -91,6 +96,40 @@ h4 {
 }
 
 #example {
+    display: flex;
+    flex-direction: row;
     background-color: #00B172;
+    align-items: center;
     margin: 20px;
+    padding:30px 60px;
+    color : #FFF;
+}
+.text {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+article {
+    font-size: 18px;
+    width: 50%;
+}
+h5{
+    font-size: 20px;
+    margin:10px 0;
+}
+.icon-white {
+    height: 90px;
+    margin: 0 50px;
+}
+h3 {
+    font-size: 30px;
+    text-decoration-line: underline;
+    text-underline-position: under;
+    margin-top: 0;
+}
+.poster {
+    width: 250px;
+    margin: 50px 20px 10px 20px;
 }
